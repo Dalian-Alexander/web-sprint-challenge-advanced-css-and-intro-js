@@ -270,7 +270,7 @@ function removeArtist(arr, value){
   arr.splice(value,1)
   return arr.length
 }
-   console.log(removeArtist(artists, 1))
+   console.log(removeArtist(artists, 0))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 

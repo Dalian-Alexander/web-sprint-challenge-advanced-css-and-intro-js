@@ -247,7 +247,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 function get20s(arr){
   const artistOfThe20thCentury = []
   for(let i = 0; i < arr.length; i++){
-    if ((parseInt(arr[i].years)) >= 1900){
+    if ((parseInt(arr[i].years)) >= 1900 && (parseInt(arr[i].years)) <= 2000){
       artistOfThe20thCentury.push(arr[i].name);
     }
   }   
